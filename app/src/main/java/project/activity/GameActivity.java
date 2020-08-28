@@ -38,7 +38,6 @@ public class GameActivity extends EnhancedActivity {
     btn_option.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
-        gameBoardView.startGame(isMultiplayer);
         Dialog dialog = new OptionDialog(GameActivity.this);
         dialog.show();
       }
